@@ -11,6 +11,7 @@ function Portfolio() {
             src: process.env.PUBLIC_URL + "/video/BioMind.mp4",
             details: {
                 site: "FitShare",
+                people: "4명",
                 period: "2025.05.28 ~ 2025.06.13",
                 tech: "HTML, CSS, JavaScript, React",
                 subject: "식단/운동/컨디션 기록 등을 제공하는 사용자 건강 관리 서비스 시스템",
@@ -30,6 +31,7 @@ function Portfolio() {
             src: process.env.PUBLIC_URL + "/video/Connectify.mp4",
             details: {
                 site: "Connectify",
+                people: "4명",
                 period: "2025.07.28 ~ 2025.08.14",
                 tech: "HTML, CSS, JavaScript, OracleDB, JAVA, Spring, AJAX, Tomcat",
                 subject: "공공데이터를 활용한 여행지 추천 및 여행 기록 공유 커뮤니티 서비스",
@@ -44,6 +46,7 @@ function Portfolio() {
             src: process.env.PUBLIC_URL + "/video/FarmBaro.mp4",
             details: {
                 site: "바로목장",
+                people: "4명",
                 period: "2025.08.21 ~ 2025.09.12",
                 tech: "HTML, CSS, JavaScript, React, OracleDB, JAVA, Spring, MyBatis, Tomcat",
                 subject: "농산물 가격추이 시세 정보 분석 기반의 농산물 직거래 시스템",
@@ -97,6 +100,7 @@ function Portfolio() {
                         {/* 상세 내용 */}
                         <div className="modal-details">
                             <p><strong>사이트 명</strong> {selected.details.site}</p>
+                            <p><strong>작업 인원수</strong> {selected.details.people}</p>
                             <p><strong>작업 기간</strong> {selected.details.period}</p>
                             <p><strong>기술 스택</strong> {selected.details.tech}</p>
                             <p><strong>주제</strong> {selected.details.subject}</p>
