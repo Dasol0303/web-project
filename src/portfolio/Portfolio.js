@@ -70,6 +70,12 @@ function Portfolio() {
                     <span>2차 프로젝트: 백엔드 개발</span>
                     <span>3차 프로젝트: 프론트엔드 + 백엔드 개발</span>
                 </div>
+                <p>"작업 환경"</p>
+                <div className="projects">
+                    <span>GitHub</span>
+                    <span>VsCode</span>
+                    <span>Notion</span>
+                </div>
             </div>
 
             <div className="body">
